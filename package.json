@@ -1,27 +1,31 @@
 {
-  "name": "bpmn-moddle-auto-layout",
+  "name": "bpmn-moddle-auto-layout-api",
   "version": "1.0.0",
   "description": "layouting bpmn-processes without di",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bpmn-io/bpmn-js-auto-layout.git"
+    "url": "git+https://github.com/pinussilvestrus/bpmn-js-auto-layout.git"
   },
   "keywords": [
     "bpmn",
-    "layout"
+    "layout",
+    "api"
   ],
-  "author": "hoferch91",
+  "author": "pinussilvestrus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bpmn-io/bpmn-js-auto-layout/issues"
+    "url": "https://github.com/pinussilvestrus/bpmn-js-auto-layout/issues"
   },
-  "homepage": "https://github.com/bpmn-io/bpmn-js-auto-layout#readme",
+  "homepage": "https://github.com/pinussilvestrus/bpmn-js-auto-layout#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "bpmn-moddle": "^0.12.2",
+    "express": "^4.13.3",
     "lodash": "^3.0.1"
   }
 }
