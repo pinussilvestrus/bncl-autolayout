@@ -6,12 +6,12 @@ var AutoLayout = require('./index.js');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Origin', 'POST');
+  res.header('Access-Control-Allow-Methods', 'POST');
+  next();
 });
 
 app.post('/autoLayout', function (req, res) {
 
-  console.log('here');
   var xmlWithoutDI = req.body.bpmn;
 
   if (!xmlWithoutDI) {
