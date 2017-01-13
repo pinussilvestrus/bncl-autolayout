@@ -13,11 +13,8 @@ app.post('/autoLayout', function (req, res) {
     res.send("Please input valid bpmn xml into the post body as 'bpmn'");
   }
 
-  console.log(xmlWithoutDI);
-
   var autoLayout = new AutoLayout();
   autoLayout.layoutProcess(xmlWithoutDI, function(result) {
-    console.log(result);
     res.send(result);
   });
 });
