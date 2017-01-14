@@ -10,6 +10,10 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get('/', function (req, res) {
+  res.sendStatus(200);
+});
+
 app.post('/autoLayout', function (req, res) {
 
   var xmlWithoutDI = req.body.bpmn;

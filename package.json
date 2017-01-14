@@ -2,10 +2,11 @@
   "name": "bpmn-moddle-auto-layout-api",
   "version": "1.0.0",
   "description": "layouting bpmn-processes without di",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "startd": "nodemon app.js"
   },
   "repository": {
     "type": "git",
