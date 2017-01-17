@@ -1,5 +1,5 @@
 {
-  "name": "bpmn-moddle-auto-layout-api",
+  "name": "bncl-autolayout",
   "version": "1.0.0",
   "description": "layouting bpmn-processes without di",
   "main": "app.js",
@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/pinussilvestrus/bpmn-js-auto-layout#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
     "bpmn-moddle": "^0.12.2",
+    "concat-stream": "^1.6.0",
     "express": "^4.13.3",
     "lodash": "^3.0.1"
   }
