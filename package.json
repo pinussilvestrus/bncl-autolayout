@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/pinussilvestrus/bpmn-js-auto-layout#readme",
   "dependencies": {
-    "bpmn-moddle": "^0.12.2",
+    "bpmn-moddle": "^3.0.2",
     "concat-stream": "^1.6.0",
     "express": "^4.13.3",
-    "lodash": "^3.0.1"
+    "lodash": "^4.17.21"
   }
 }
