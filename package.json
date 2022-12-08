@@ -26,7 +26,7 @@
   "dependencies": {
     "bpmn-moddle": "^3.0.2",
     "concat-stream": "^1.6.0",
-    "express": "^4.13.3",
+    "express": "^4.18.2",
     "lodash": "^4.17.21"
   }
 }
